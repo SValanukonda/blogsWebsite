@@ -1,0 +1,172 @@
+baseURL = "http://example.org/"
+
+
+
+# Change the default theme to be use when building the site with Hugo
+
+theme = "LoveIt"
+
+[params]
+  title = "lazyprogrammer.blogs"
+  description = "lazyprogrammer blogging website "
+
+
+
+
+# language code ["en", "zh-CN", "fr", "pl", ...]
+
+languageCode = "en"
+
+# language name ["English", "简体中文", "Français", "Polski", ...]
+
+languageName = "English"
+
+hasCJKLanguage = false
+
+# Menu config
+
+[menu]
+
+    [[menu.main]]
+
+    weight = 1
+
+    identifier = "Home"
+
+    # you can add extra information before the name (HTML format is supported), such as icons
+
+    pre = ""
+
+    # you can add extra information after the name (HTML format is supported), such as icons
+
+    post = ""
+
+    name = "Home"
+
+    url = "/"
+
+    # title will be shown when you hover on this menu link
+
+    title = ""
+
+  [[menu.main]]
+
+    weight = 1
+
+    identifier = "Posts"
+
+    # you can add extra information before the name (HTML format is supported), such as icons
+
+    pre = ""
+
+    # you can add extra information after the name (HTML format is supported), such as icons
+
+    post = ""
+
+    name = "Posts"
+
+    url = "/posts/"
+
+    # title will be shown when you hover on this menu link
+
+    title = ""
+
+  [[menu.main]]
+
+    weight = 2
+
+    identifier = "tags"
+
+    pre = ""
+
+    post = ""
+
+    name = "Tags"
+
+    url = "/tags/"
+
+    title = ""
+
+    [[menu.main]]
+
+    weight = 3
+
+    identifier = "categories"
+
+    pre = ""
+
+    post = ""
+
+    name = "Categories"
+
+    url = "/categories"
+
+    title = ""
+
+  [[menu.main]]
+
+    weight = 4
+
+    identifier = "about"
+
+    pre = ""
+
+    post = ""
+
+    name = "About"
+
+    url = "/about"
+
+    title = ""
+
+
+
+
+
+# Markup related configuration in Hugo
+
+[markup]
+
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+
+  [markup.highlight]
+
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+
+    noClasses = false
+
+
+
+
+[params.social]
+  GitHub = "SValanukonda"
+  Linkedin = "sarath-brahmma-valanukonda-994366229"
+
+
+[params.typeit]
+  speed = 25
+  cursorSpeed = 1000
+  cursorChar = "|"
+  duration = -1
+
+[params.header.title]
+  name = "lazyprogrammer"
+
+
+[params.footer]
+  enable = true
+  hugo = false             
+  theme = false             
+  license="All rights reserved."
+
+
+ [params.home.profile]
+  title = "Sarath"
+  subtitle = "Welcome to lazy programmer blogs ! "
+
+
+  [params.author]
+    name = "Sarath Valanukonda"
+    email = "sarathvalanukonda491@gmail.com"
+    link = ""
+  
