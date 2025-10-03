@@ -23,4 +23,4 @@ This site is built and hosted using **GitHub Pages**, keeping things simple, fas
 
 ---
 
-Feel free to personalize this with your name or contact info if you want to make it more yours!
+
