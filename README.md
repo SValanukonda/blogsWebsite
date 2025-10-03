@@ -12,9 +12,6 @@ This repository powers my personal blog, where I share my experiences, thoughts,
 
 I created this space to document my journey, share what I’ve learned, and connect with others who might find value in my experiences—whether you’re in tech or simply curious about my path.
 
-## How It’s Built
-
-This site is built and hosted using **GitHub Pages**, keeping things simple, fast, and accessible to everyone.
 
 ## Connect
 
