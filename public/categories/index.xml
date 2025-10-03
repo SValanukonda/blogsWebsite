@@ -1,16 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Category - </title>
-        <link>http://localhost:1313/categories/</link>
-        <description>Categories - Category - </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor>
-            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Tue, 16 Sep 2025 17:09:50 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Software Engineering Category</title>
-    <link>http://localhost:1313/categories/software-engineering-category/</link>
-    <pubDate>Tue, 16 Sep 2025 17:09:50 &#43;0000</pubDate>
-    <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
-    <guid>http://localhost:1313/categories/software-engineering-category/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Categories - Category -</title><link>http://example.org/categories/</link><description>Categories - Category -</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor><webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml"/></channel></rss>

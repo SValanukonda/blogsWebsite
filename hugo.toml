@@ -170,3 +170,6 @@ hasCJKLanguage = false
     email = "sarathvalanukonda491@gmail.com"
     link = ""
   
+
+  [params.page.share]
+    enable = false
