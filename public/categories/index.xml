@@ -1,31 +1,31 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - </title>
-        <link>http://localhost:1313/categories/</link>
+        <link>http://localhost:1313/blogsWebsite/categories/</link>
         <description>Categories - Category - </description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor>
-            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/blogsWebsite/categories/" rel="self" type="application/rss+xml" /><item>
     <title>Bash Sarath</title>
-    <link>http://localhost:1313/categories/bash-sarath/</link>
+    <link>http://localhost:1313/blogsWebsite/categories/bash-sarath/</link>
     <pubDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</pubDate>
     <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
-    <guid>http://localhost:1313/categories/bash-sarath/</guid>
+    <guid>http://localhost:1313/blogsWebsite/categories/bash-sarath/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Software Engineering Category</title>
-    <link>http://localhost:1313/categories/software-engineering-category/</link>
+    <link>http://localhost:1313/blogsWebsite/categories/software-engineering-category/</link>
     <pubDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</pubDate>
     <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
-    <guid>http://localhost:1313/categories/software-engineering-category/</guid>
+    <guid>http://localhost:1313/blogsWebsite/categories/software-engineering-category/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Bash</title>
-    <link>http://localhost:1313/categories/bash/</link>
+    <link>http://localhost:1313/blogsWebsite/categories/bash/</link>
     <pubDate>Sat, 04 Oct 2025 00:50:48 &#43;0000</pubDate>
     <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
-    <guid>http://localhost:1313/categories/bash/</guid>
+    <guid>http://localhost:1313/blogsWebsite/categories/bash/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
