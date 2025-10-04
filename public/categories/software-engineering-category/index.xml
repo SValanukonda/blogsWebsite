@@ -4,7 +4,23 @@
         <link>http://localhost:1313/categories/software-engineering-category/</link>
         <description>Software Engineering Category - Category - </description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor>
-            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Tue, 16 Sep 2025 17:09:50 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/software-engineering-category/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/software-engineering-category/" rel="self" type="application/rss+xml" /><item>
+    <title>My New Post</title>
+    <link>http://localhost:1313/posts/my-new-post/</link>
+    <pubDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</pubDate>
+    <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
+    <guid>http://localhost:1313/posts/my-new-post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Secondpost</title>
+    <link>http://localhost:1313/posts/secondpost/</link>
+    <pubDate>Sat, 04 Oct 2025 00:50:48 &#43;0000</pubDate>
+    <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
+    <guid>http://localhost:1313/posts/secondpost/</guid>
+    <description><![CDATA[<p>this my second post on bash , ewwww</p>]]></description>
+</item>
+<item>
     <title>First_post</title>
     <link>http://localhost:1313/posts/first_post/</link>
     <pubDate>Tue, 16 Sep 2025 17:09:50 &#43;0000</pubDate>

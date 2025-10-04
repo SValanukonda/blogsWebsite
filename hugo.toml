@@ -63,7 +63,7 @@ hasCJKLanguage = false
 
     post = ""
 
-    name = "Posts"
+    name = "posts"
 
     url = "/posts/"
 
