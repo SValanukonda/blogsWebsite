@@ -173,3 +173,8 @@ hasCJKLanguage = false
 
   [params.page.share]
     enable = false
+
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "fixed"
