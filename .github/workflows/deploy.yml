@@ -26,6 +26,7 @@ jobs:
       - name: Replace fallback assignment in theme.min.js
         run: sed -i 's/this\.config=window\.config/this.config=window.config || {}/g' public/js/theme.min.js
 
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
