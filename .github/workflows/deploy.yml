@@ -23,6 +23,9 @@ jobs:
       - name: Build site
         run: hugo --minify
 
+      - name: Replace fallback assignment in theme.min.js
+        run: sed -i 's/this\.data=this\.config\.data/this.data=this.config.data||{}/g' public/js/theme.min.js
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
