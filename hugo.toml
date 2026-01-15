@@ -7,8 +7,8 @@ baseURL = "https://svalanukonda.github.io/blogsWebsite/"
 theme = "LoveIt"
 
 [params]
-  title = "lazyprogrammer.blogs"
-  description = "lazyprogrammer blogging website "
+  title = "sarath.me"
+  
 
 
 
@@ -150,7 +150,7 @@ hasCJKLanguage = false
   duration = -1
 
 [params.header.title]
-  name = "lazyprogrammer"
+  name = "sarath.scribles"
 
 
 [params.footer]
@@ -162,7 +162,7 @@ hasCJKLanguage = false
 
  [params.home.profile]
   title = "Sarath"
-  subtitle = "Welcome to lazy programmer blogs ! "
+  subtitle = "Welcome to my digital scribe - notes and reflections on technology."
 
 
   [params.author]

@@ -18,5 +18,5 @@ This blog is my personal knowledge base where I share notes, tutorials, and expe
 ---
 
 ## 🔹 Connect with Me
-- 📧 Email: [sarathvalanukonda491@gmail.com]
+- 📧 Email: [sarathvalanukonda491@gmail.com](mailto:sarathvalanukonda491@gmail.com) 
 - 🐙 GitHub: [https://github.com/SValanukonda](https://github.com/SValanukonda)
