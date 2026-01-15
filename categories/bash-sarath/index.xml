@@ -1,1 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Bash Sarath - Category -</title><link>https://svalanukonda.github.io/blogsWebsite/categories/bash-sarath/</link><description>Bash Sarath - Category -</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor><webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Sat, 04 Oct 2025 00:56:50 +0000</lastBuildDate><atom:link href="https://svalanukonda.github.io/blogsWebsite/categories/bash-sarath/" rel="self" type="application/rss+xml"/><item><title>My New Post</title><link>https://svalanukonda.github.io/blogsWebsite/posts/my-new-post/</link><pubDate>Sat, 04 Oct 2025 00:56:50 +0000</pubDate><author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author><guid>https://svalanukonda.github.io/blogsWebsite/posts/my-new-post/</guid><description></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Bash Sarath - Category - </title>
+        <link>http://localhost:1313/blogsWebsite/categories/bash-sarath/</link>
+        <description>Bash Sarath - Category - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor>
+            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/blogsWebsite/categories/bash-sarath/" rel="self" type="application/rss+xml" /><item>
+    <title>My New Post</title>
+    <link>http://localhost:1313/blogsWebsite/posts/my-new-post/</link>
+    <pubDate>Sat, 04 Oct 2025 00:56:50 &#43;0000</pubDate>
+    <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
+    <guid>http://localhost:1313/blogsWebsite/posts/my-new-post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
