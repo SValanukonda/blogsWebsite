@@ -2,9 +2,12 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/blogsWebsite/</loc><lastmod>2025-12-04T16:29:55&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/blogsWebsite/posts/</loc><lastmod>2025-12-04T16:29:55&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/blogsWebsite/</loc><lastmod>2026-01-29T13:15:36&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/blogsWebsite/categories/</loc><lastmod>2026-01-29T13:15:36&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/blogsWebsite/categories/cyber-security/</loc><lastmod>2026-01-29T13:15:36&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/blogsWebsite/tags/cyber-security/</loc><lastmod>2026-01-29T13:15:36&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/blogsWebsite/posts/</loc><lastmod>2026-01-29T13:15:36&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/blogsWebsite/tags/</loc><lastmod>2026-01-29T13:15:36&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/blogsWebsite/posts/wifi_beacon_attack_the_garuda_project/</loc><lastmod>2026-01-29T13:15:36&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/blogsWebsite/posts/sagapattern/</loc><lastmod>2025-12-04T16:29:55&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/blogsWebsite/about/</loc><lastmod>2025-09-17T17:11:44&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/blogsWebsite/categories/</loc></url><url>
-            <loc>http://localhost:1313/blogsWebsite/tags/</loc></url></urlset>
+            <loc>http://localhost:1313/blogsWebsite/about/</loc><lastmod>2025-09-17T17:11:44&#43;00:00</lastmod></url></urlset>
