@@ -7,7 +7,9 @@
         <title>Wifi Beacon Attack - </title><meta name="Description" content="This is my cool site"><meta property="og:url" content="http://localhost:1313/blogsWebsite/posts/wifi_beacon_attack_the_garuda_project/">
   <meta property="og:site_name" content="sarath.me">
   <meta property="og:title" content="Wifi Beacon Attack">
-  <meta property="og:description" content="This is my cool site">
+  <meta property="og:description" content="Understanding the Beacon Frame Attack We are going to talk about something called a beacon attack. A beacon frame is a management frame from the 802.11 standard. It is like a heartbeat which Access Points (routers) send in networks to make their presence visible.
+How Devices Scan for Networks Ever wonder how a mobile device or laptop scans for nearby Wi-Fi networks?
+An Access Point (router) periodically sends a beacon frame. The mobile device or laptop captures this packet. The packet contains info about the Access Point (such as the SSID and security settings). The Security Flaw There is no validation on this packet. For example, there is no way for a device to verify if the Access Point is really what it claims to be.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -17,7 +19,9 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Wifi Beacon Attack">
-  <meta name="twitter:description" content="This is my cool site">
+  <meta name="twitter:description" content="Understanding the Beacon Frame Attack We are going to talk about something called a beacon attack. A beacon frame is a management frame from the 802.11 standard. It is like a heartbeat which Access Points (routers) send in networks to make their presence visible.
+How Devices Scan for Networks Ever wonder how a mobile device or laptop scans for nearby Wi-Fi networks?
+An Access Point (router) periodically sends a beacon frame. The mobile device or laptop captures this packet. The packet contains info about the Access Point (such as the SSID and security settings). The Security Flaw There is no validation on this packet. For example, there is no way for a device to verify if the Access Point is really what it claims to be.">
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -33,7 +37,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/localhost:1313\/blogsWebsite\/posts\/wifi_beacon_attack_the_garuda_project\/"
-        },"genre": "posts","keywords": "Cyber Security","wordcount":  0 ,
+        },"genre": "posts","keywords": "Cyber Security","wordcount":  223 ,
         "url": "http:\/\/localhost:1313\/blogsWebsite\/posts\/wifi_beacon_attack_the_garuda_project\/","datePublished": "2026-01-29T13:15:36+00:00","dateModified": "2026-01-29T13:15:36+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -86,15 +90,41 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Wifi Beacon Attack</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/blogsWebsite/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Sarath Valanukonda</a></span>&nbsp;<span class="post-category">included in <a href="/blogsWebsite/categories/cyber-security/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Cyber Security</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-01-29">2026-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;0 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;0 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-01-29">2026-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;223 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div><div class="post-footer" id="post-footer">
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#how-devices-scan-for-networks">How Devices Scan for Networks</a></li>
+        <li><a href="#the-security-flaw">The Security Flaw</a></li>
+        <li><a href="#the-attack-method">The Attack Method</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="understanding-the-beacon-frame-attack">Understanding the Beacon Frame Attack</h1>
+<p>We are going to talk about something called a <strong>beacon attack</strong>. A <strong>beacon frame</strong> is a management frame from the <strong>802.11 standard</strong>. It is like a <strong>heartbeat</strong> which <strong>Access Points</strong> (routers) send in networks to make their <strong>presence</strong> visible.</p>
+<h3 id="how-devices-scan-for-networks">How Devices Scan for Networks</h3>
+<p>Ever wonder how a mobile device or laptop scans for nearby Wi-Fi networks?</p>
+<ul>
+<li>An <strong>Access Point</strong> (router) periodically sends a <strong>beacon frame</strong>.</li>
+<li>The mobile device or laptop <strong>captures</strong> this packet.</li>
+<li>The packet contains <strong>info</strong> about the Access Point (such as the SSID and security settings).</li>
+</ul>
+<h3 id="the-security-flaw">The Security Flaw</h3>
+<p>There is <strong>no validation</strong> on this packet. For example, there is no way for a device to verify if the Access Point is <strong>really</strong> what it claims to be.</p>
+<h3 id="the-attack-method">The Attack Method</h3>
+<p>We can exploit this by taking a <strong>real Access Point&rsquo;s</strong> name and adding a <strong>space</strong> to that name to create <strong>duplicate</strong> Access Points.</p>
+<p>When a new client tries to connect, they won&rsquo;t be able to <strong>detect</strong> the correct one among the many fakes. This is a form of <strong>DDoS</strong> (Distributed Denial of Service) attack because it prevents legitimate users from accessing the network.</p>
+<p>Remedy</p>
+<p>Since these spaces are only not visible , if u use QR code u can easly connect , issuse come only when u try to use wifi name to coneect</p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">

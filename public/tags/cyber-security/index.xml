@@ -10,7 +10,17 @@
     <pubDate>Thu, 29 Jan 2026 13:15:36 &#43;0000</pubDate>
     <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
     <guid>http://localhost:1313/blogsWebsite/posts/wifi_beacon_attack_the_garuda_project/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[<h1 id="understanding-the-beacon-frame-attack">Understanding the Beacon Frame Attack</h1>
+<p>We are going to talk about something called a <strong>beacon attack</strong>. A <strong>beacon frame</strong> is a management frame from the <strong>802.11 standard</strong>. It is like a <strong>heartbeat</strong> which <strong>Access Points</strong> (routers) send in networks to make their <strong>presence</strong> visible.</p>
+<h3 id="how-devices-scan-for-networks">How Devices Scan for Networks</h3>
+<p>Ever wonder how a mobile device or laptop scans for nearby Wi-Fi networks?</p>
+<ul>
+<li>An <strong>Access Point</strong> (router) periodically sends a <strong>beacon frame</strong>.</li>
+<li>The mobile device or laptop <strong>captures</strong> this packet.</li>
+<li>The packet contains <strong>info</strong> about the Access Point (such as the SSID and security settings).</li>
+</ul>
+<h3 id="the-security-flaw">The Security Flaw</h3>
+<p>There is <strong>no validation</strong> on this packet. For example, there is no way for a device to verify if the Access Point is <strong>really</strong> what it claims to be.</p>]]></description>
 </item>
 </channel>
 </rss>
