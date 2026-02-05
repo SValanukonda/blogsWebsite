@@ -5,22 +5,22 @@
         <description>Cyber Security - Category - </description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor>
             <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Thu, 29 Jan 2026 13:15:36 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/blogsWebsite/categories/cyber-security/" rel="self" type="application/rss+xml" /><item>
-    <title>Wifi Beacon Attack</title>
+    <title>WiFi Beacon Attack: Understanding the SSID Confusion</title>
     <link>http://localhost:1313/blogsWebsite/posts/wifi_beacon_attack_the_garuda_project/</link>
     <pubDate>Thu, 29 Jan 2026 13:15:36 &#43;0000</pubDate>
     <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
     <guid>http://localhost:1313/blogsWebsite/posts/wifi_beacon_attack_the_garuda_project/</guid>
     <description><![CDATA[<h1 id="understanding-the-beacon-frame-attack">Understanding the Beacon Frame Attack</h1>
-<p>We are going to talk about something called a <strong>beacon attack</strong>. A <strong>beacon frame</strong> is a management frame from the <strong>802.11 standard</strong>. It is like a <strong>heartbeat</strong> which <strong>Access Points</strong> (routers) send in networks to make their <strong>presence</strong> visible.</p>
-<h3 id="how-devices-scan-for-networks">How Devices Scan for Networks</h3>
-<p>Ever wonder how a mobile device or laptop scans for nearby Wi-Fi networks?</p>
+<p>A <strong>Beacon Attack</strong> exploits the fundamental way wireless networks announce themselves. To understand this, we first look at the <strong>Beacon Frame</strong>—a management frame within the <strong>802.11 standard</strong>. Think of it as a <strong>heartbeat</strong> that Access Points (routers) broadcast to make their presence known to the world.</p>
+<h3 id="how-devices-discover-networks">How Devices Discover Networks</h3>
+<p>Have you ever wondered how your phone instantly lists nearby Wi-Fi networks?</p>
 <ul>
-<li>An <strong>Access Point</strong> (router) periodically sends a <strong>beacon frame</strong>.</li>
-<li>The mobile device or laptop <strong>captures</strong> this packet.</li>
-<li>The packet contains <strong>info</strong> about the Access Point (such as the SSID and security settings).</li>
+<li><strong>Broadcasting:</strong> An Access Point (AP) periodically sends out a <strong>Beacon Frame</strong>.</li>
+<li><strong>Scanning:</strong> Your mobile device or laptop &ldquo;listens&rdquo; for these packets.</li>
+<li><strong>Information Sharing:</strong> The packet contains critical info about the AP, such as the <strong>SSID</strong> (Network Name), supported data rates, and security settings.</li>
 </ul>
-<h3 id="the-security-flaw">The Security Flaw</h3>
-<p>There is <strong>no validation</strong> on this packet. For example, there is no way for a device to verify if the Access Point is <strong>really</strong> what it claims to be.</p>]]></description>
+<h3 id="the-security-flaw-lack-of-validation">The Security Flaw: Lack of Validation</h3>
+<p>The core issue is that there is <strong>no validation</strong> for these frames. By design, a device has no native way to verify if an Access Point is truly who it claims to be before attempting to associate with it.</p>]]></description>
 </item>
 </channel>
 </rss>

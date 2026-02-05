@@ -1,46 +1,48 @@
 +++
+title = 'WiFi Beacon Attack: Understanding the SSID Confusion'
 date = '2026-01-29T13:15:36Z'
-
-title = 'Wifi Beacon Attack'
-tags=["Cyber Security"]
-categories=["Cyber Security"]
+tags = ["Cyber Security", "Networking"]
+categories = ["Cyber Security"]
 
 +++
 
 # Understanding the Beacon Frame Attack
 
-We are going to talk about something called a **beacon attack**. A **beacon frame** is a management frame from the **802.11 standard**. It is like a **heartbeat** which **Access Points** (routers) send in networks to make their **presence** visible.
+A **Beacon Attack** exploits the fundamental way wireless networks announce themselves. To understand this, we first look at the **Beacon Frame**—a management frame within the **802.11 standard**. Think of it as a **heartbeat** that Access Points (routers) broadcast to make their presence known to the world.
 
-### How Devices Scan for Networks
-Ever wonder how a mobile device or laptop scans for nearby Wi-Fi networks?
-* An **Access Point** (router) periodically sends a **beacon frame**.
-* The mobile device or laptop **captures** this packet.
-* The packet contains **info** about the Access Point (such as the SSID and security settings).
+### How Devices Discover Networks
+Have you ever wondered how your phone instantly lists nearby Wi-Fi networks?
+* **Broadcasting:** An Access Point (AP) periodically sends out a **Beacon Frame**.
+* **Scanning:** Your mobile device or laptop "listens" for these packets.
+* **Information Sharing:** The packet contains critical info about the AP, such as the **SSID** (Network Name), supported data rates, and security settings.
 
 
 
-### The Security Flaw
-There is **no validation** on this packet. For example, there is no way for a device to verify if the Access Point is **really** what it claims to be.
+### The Security Flaw: Lack of Validation
+The core issue is that there is **no validation** for these frames. By design, a device has no native way to verify if an Access Point is truly who it claims to be before attempting to associate with it.
 
 ### The Attack Method
-We can exploit this by taking a **real Access Point's** name and adding a **space** to that name to create **duplicate** Access Points. 
+An attacker can exploit this by "cloning" a legitimate Access Point's name. By using the **exact SSID** of a target network and perhaps adding a **trailing space** (which is invisible to the human eye in most UI lists), an attacker can broadcast hundreds of **duplicate** Access Points.
 
-When a new client tries to connect, they won't be able to **detect** the correct one among the many fakes. This is a form of **DDoS** (Distributed Denial of Service) attack because it prevents legitimate users from accessing the network.
+When a user tries to connect, they are faced with a wall of identical network names. This effectively acts as a **DDoS (Distributed Denial of Service)** attack, as the user cannot distinguish the real network from the fakes, preventing a successful connection.
 
+### The Remedy
+Because the "fake" SSIDs usually rely on visual trickery (like extra spaces), they only affect users who manually select a name from a list. 
+* **QR Codes:** Using a QR code to share Wi-Fi credentials bypasses the manual selection process and connects to the specific, correct parameters.
 
+---
 
-Remedy 
+### Project Demo
+For a deep dive into the implementation, visit the **Garuda Project** on GitHub: [GARUDA by SValanukonda](https://github.com/SValanukonda/GARUDA).
 
-Since these spaces are only not visible , if u use QR code u can easly connect , issuse come only when u try to use wifi name to coneect 
-
-
-
-there is the github link for Garuda project :: [text](https://github.com/SValanukonda/GARUDA)
-
-
+#### Attack Demonstration
 <div style="display: flex; justify-content: center; margin: 30px 0;">
     <video width="720" height="auto" controls style="max-width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border-radius: 8px;">
         <source src="../BeaconAttack.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
+
+{{< image src="../BeaconAttack.jpeg" caption="Network list flooded with duplicate SSIDs during the attack" alt="Beacon Attack Screenshot" >}}
+
+As seen in the demonstration, once the attack starts, the victim's device sees multiple networks with the same name, rendering the Wi-Fi menu useless and successfully executing a Denial of Service.

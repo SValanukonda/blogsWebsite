@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - </title>
-        <link>http://localhost:1313/blogsWebsite/posts/</link>
-        <description>All Posts | </description>
+        <title>Networking - Tag - </title>
+        <link>http://localhost:1313/blogsWebsite/tags/networking/</link>
+        <description>Networking - Tag - </description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</managingEditor>
-            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Thu, 29 Jan 2026 13:15:36 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/blogsWebsite/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</webMaster><lastBuildDate>Thu, 29 Jan 2026 13:15:36 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/blogsWebsite/tags/networking/" rel="self" type="application/rss+xml" /><item>
     <title>WiFi Beacon Attack: Understanding the SSID Confusion</title>
     <link>http://localhost:1313/blogsWebsite/posts/wifi_beacon_attack_the_garuda_project/</link>
     <pubDate>Thu, 29 Jan 2026 13:15:36 &#43;0000</pubDate>
@@ -21,14 +21,6 @@
 </ul>
 <h3 id="the-security-flaw-lack-of-validation">The Security Flaw: Lack of Validation</h3>
 <p>The core issue is that there is <strong>no validation</strong> for these frames. By design, a device has no native way to verify if an Access Point is truly who it claims to be before attempting to associate with it.</p>]]></description>
-</item>
-<item>
-    <title>SagaPattern</title>
-    <link>http://localhost:1313/blogsWebsite/posts/sagapattern/</link>
-    <pubDate>Thu, 04 Dec 2025 16:29:55 &#43;0000</pubDate>
-    <author>sarathvalanukonda491@gmail.com (Sarath Valanukonda)</author>
-    <guid>http://localhost:1313/blogsWebsite/posts/sagapattern/</guid>
-    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
