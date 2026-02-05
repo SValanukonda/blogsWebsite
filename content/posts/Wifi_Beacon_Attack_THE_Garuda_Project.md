@@ -38,7 +38,6 @@ Since these spaces are only not visible , if u use QR code u can easly connect ,
 there is the github link for Garuda project :: [text](https://github.com/SValanukonda/GARUDA)
 
 
-
 <div style="display: flex; justify-content: center; margin: 30px 0;">
     <video width="720" height="auto" controls style="max-width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border-radius: 8px;">
         <source src="../BeaconAttack.mp4" type="video/mp4">
