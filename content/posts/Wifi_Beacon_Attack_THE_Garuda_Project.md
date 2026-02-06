@@ -37,11 +37,19 @@ For a deep dive into the implementation, visit the **Garuda Project** on GitHub:
 
 #### Attack Demonstration
 <div style="display: flex; justify-content: center; margin: 30px 0;">
-    <video width="720" height="auto" controls style="max-width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border-radius: 8px;">
-        <source src="../BeaconAttack.mp4" type="video/mp4">
+    <video
+        width="720"
+        height="auto"
+        controls
+        controlsList="nodownload"
+        oncontextmenu="return false;"
+        style="max-width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border-radius: 8px;"
+    >
+        <source src="../etemp.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
+
 
 
 {{< image src="../BeaconAttack.jpeg" caption="Network list flooded with duplicate SSIDs during the attack" alt="Beacon Attack Screenshot" >}}
