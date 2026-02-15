@@ -36,19 +36,7 @@ Because the "fake" SSIDs usually rely on visual trickery (like extra spaces), th
 For a deep dive into the implementation, visit the **Garuda Project** on GitHub: [GARUDA by SValanukonda](https://github.com/SValanukonda/GARUDA).
 
 #### Attack Demonstration
-<div style="display: flex; justify-content: center; margin: 30px 0;">
-    <video
-        width="720"
-        height="auto"
-        controls
-        controlsList="nodownload"
-        oncontextmenu="return false;"
-        style="max-width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border-radius: 8px;"
-    >
-        <source src="../BeaconAttack.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
+[Watch this video on YouTube](https://www.youtube.com/watch?v=rMhEyAcG2WA)
 
 
 
