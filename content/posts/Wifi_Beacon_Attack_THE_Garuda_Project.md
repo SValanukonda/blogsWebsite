@@ -35,7 +35,7 @@ Because the "fake" SSIDs usually rely on visual trickery (like extra spaces), th
 ### Project Demo
 For a deep dive into the implementation, visit the **Garuda Project** on GitHub: [GARUDA by SValanukonda](https://github.com/SValanukonda/GARUDA).
 
-#### Attack Demonstration [Watch this video on YouTube](https://www.youtube.com/watch?v=rMhEyAcG2WA)
+#### Attack Demonstration [watch this video on YouTube ](https://www.youtube.com/watch?v=rMhEyAcG2WA)
 
 
 
